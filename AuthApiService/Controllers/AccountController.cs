@@ -39,9 +39,7 @@ public class AccountController : ControllerBase
     [HttpPost("ConfirmEmail")]
     public async Task<IActionResult> ConfirmEmailAsync()
     {
-        var token = HttpContext.Request.Headers["Authorization"];
-
-        token = token.ToString().Replace("Bearer ", "");
+        var token = HttpContext.Request.Cookies["accessToken"];
 
         await accountService.ConfirmEmailAsync(token);
 

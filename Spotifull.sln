@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthData", "AuthData\AuthData.csproj", "{16664D37-E082-4E08-8EF4-73FAD05B97F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApiService", "AuthApiService\AuthApiService.csproj", "{C9EF11CA-2F48-42C8-87E3-BBE8BA6F2DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{45F09FD0-C611-4F55-BC7D-687559E69883}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16664D37-E082-4E08-8EF4-73FAD05B97F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16664D37-E082-4E08-8EF4-73FAD05B97F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16664D37-E082-4E08-8EF4-73FAD05B97F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16664D37-E082-4E08-8EF4-73FAD05B97F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9EF11CA-2F48-42C8-87E3-BBE8BA6F2DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EF11CA-2F48-42C8-87E3-BBE8BA6F2DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EF11CA-2F48-42C8-87E3-BBE8BA6F2DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EF11CA-2F48-42C8-87E3-BBE8BA6F2DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F09FD0-C611-4F55-BC7D-687559E69883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F09FD0-C611-4F55-BC7D-687559E69883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F09FD0-C611-4F55-BC7D-687559E69883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F09FD0-C611-4F55-BC7D-687559E69883}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
